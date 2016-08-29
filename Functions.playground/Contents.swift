@@ -24,7 +24,7 @@ func sayHelloToScratchy() {
 }
 
 
-func sayHelloToCat(catName: String) {
+func sayHelloToCat(catName: String){
     print("Hello, \(catName), why do you sleep so much?")
 }
 
@@ -33,5 +33,8 @@ sayHelloToCat("Mittens")
 let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
-// Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+Uncomment this line to see the error that is printed in the console.
+
+sayHelloToCat("Mary")
+
+
